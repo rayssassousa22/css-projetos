@@ -8,30 +8,42 @@
         <title>Trilha CSS</title>
         <style>
             body{
-                margin: 0;
+                background-color: black;
+                text-align: center;
             }
-            .title{color: purple;}
+            .title{color: white;}
+            .title:hover{
+                color: red;
+            }
+            strong{color: yellow;}
             .menu {
-                color: purple;
+                color: yellow;
                 margin-block-start: 1em;
                 margin-block-end: 1em;
                 margin-left: 1em;
                 display: inline;
+                padding: 15px;
             }
 
-            .title:hover{
-                background-color: purple;
-                color: white;
+            .menu:hover{
+                background-color: yellow;
+                color: black;
+                border-radius: 5px;
+            }
+            header {
+                border-bottom: 1px solid grey;
+                padding: 20px;
             }
         </style>
     </head>
     <body>
-        <h1 class="title">Início</h1>
+        <header>
+            <h1 class="title">Politize<strong>!</strong></h1>
 
-        <h2 class="menu">Seção 1.1</h2>
+            <h2 class="menu">Doe Agora</h2>
 
-        <h2 class="menu">Seção 1.2</h2>
-
+            <h2 class="menu">Menu</h2>
+        </header>
         <p>olá</p>
     </body>
 </html>
