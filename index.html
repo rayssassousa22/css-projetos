@@ -9,7 +9,6 @@
         <style>
             body{
                 background-color: black;
-                text-align: center;
             }
             .title{color: white; margin-block-end: 1.5em;}
             .title:hover{
@@ -18,10 +17,7 @@
             strong{color: yellow;}
             .menu {
                 color: yellow;
-                margin-block-start: 1em;
-                margin-block-end: 1em;
                 margin-left: 1em;
-                display: inline;
                 padding: 15px;
             }
 
@@ -33,6 +29,11 @@
             header {
                 border-bottom: 1px solid grey;
                 padding: 20px;
+                text-align: center;
+                display: flex;
+                justify-content: space-between;
+                margin-left: 3em;
+                margin-right: 3em;
             }
 
             [title]{
@@ -41,16 +42,22 @@
                 font-weight: bold;
                 font-size: 35px;
             }
+            #nav-page{display: flex;}
         </style>
     </head>
     <body>
         <header>
-            <h1 class="title">Politize<strong>!</strong></h1>
+                <h1 class="title">Politize<strong>!</strong></h1>
 
-            <h2 class="menu">Doe Agora</h2>
+            <div id="nav-page">
+                <h2 class="menu">Doe Agora</h2>
 
-            <h2 class="menu">Menu</h2>
+                <h2 class="menu">Menu</h2>
+            </div>
         </header>
-        <p title="título">olá</p>
+
+        <main>
+            <p title="título">olá</p>
+        </main>
     </body>
 </html>
