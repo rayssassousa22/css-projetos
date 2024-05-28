@@ -33,9 +33,10 @@
                 justify-content: space-between;
                 margin-left: 1em;
                 margin-right: 3em;
+                max-height: 100px;
             }
 
-            p{
+            p, h2{
                 color: antiquewhite;
                 text-transform: uppercase;
                 font-weight: bold;
@@ -49,6 +50,11 @@
             }
             #nav-page{display: flex;}
             figure{margin: 0; display: grid;}
+            a{text-decoration: none;}
+            section{
+                min-height: 300px;
+                text-align: center;
+            }
         </style>
     </head>
     <body>
@@ -56,16 +62,9 @@
             <a href="#"><h1 class="title">Politize<strong>!</strong></h1></a>
 
             <div id="nav-page">
-                <a href="#"></a><h2 class="menu">Doe Agora</h2></Aa>
+                <a href="#"><h2 class="menu">Doe Agora</h2></a>
 
-                <h2 class="menu">
-                    Menu
-                    <ul>
-                        <li></li>
-                        <li></li>
-                        <li></li>
-                    </ul>
-                </h2>
+                <a href="#"><h2 class="menu">Menu</h2></a>
             </div>
         </header>
 
@@ -77,6 +76,10 @@
             <figure>
                 <img class="fundo" src="assets/tesla1.1.jpg">
             </figure>
+
+            <section>
+                <h2>Seja Bem Vindo!</h2>
+            </section>
         </main>
     </body>
 </html>
