@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+    margin: 0;
+}
+.title{color: white;}
+strong{color: yellow;}
+
+.menu {
+    color: yellow;
+    padding: 15px;
+}
+
+.title:hover{
+    color: red;
+}
+
+.menu:hover{
+    background-color: yellow;
+    color: black;
+    border-radius: 5px;
+}
+header {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    min-height: 150px;
+    margin-left: 5em;
+    margin-right: 5em;
+}
+
+main h2{
+    font-weight: bold;
+    font-size: 55px;
+}
+
+img.fundo {
+    min-width: 1903px;
+    max-height: 800px;
+}
+
+#header-page{display: flex;}
+
+figure{margin: 0; display: grid;}
+
+a{text-decoration: none;}
+
+section{
+    color: black;
+    min-height: 300px;
+    align-content: center;
+    text-align: center;
+    background-color: antiquewhite;
+}
