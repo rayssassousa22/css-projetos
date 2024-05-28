@@ -36,7 +36,7 @@ main h2{
 }
 
 img.fundo {
-    min-width: 1903px;
+    min-width:100%;
     max-height: 800px;
 }
 
@@ -52,4 +52,5 @@ section{
     align-content: center;
     text-align: center;
     background-color: antiquewhite;
+    min-width: 100%;
 }
