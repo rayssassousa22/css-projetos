@@ -57,5 +57,14 @@ section{
 }
 
 #pre-definidas {
-    color: purple; 
+    color: darkturquoise;
+}
+
+#current-color {
+    color: greenyellow;
+    border: 5px solid currentcolor;
+}
+
+#rgb {
+    color: rgb(70, 155, 50);
 }
