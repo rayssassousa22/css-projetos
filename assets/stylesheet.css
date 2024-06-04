@@ -67,6 +67,11 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
     color: darkturquoise;
 }
 
+#pre-definidas:hover{
+    background-color: darkturquoise;
+    color: black;
+}
+
 #current-color {
     color: greenyellow;
     border: 5px solid currentcolor;
@@ -83,24 +88,54 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
     background-color: rgb(0, 255, 0);
 }
 
+#rgb:hover{
+    color: wheat;
+    background-color: rgb(70, 155, 50 );
+}
+
 #rgba{
     color: rgba(190, 50, 250, 0.5);
+}
+
+#rgba:hover{
+    color: wheat;
+    background-color: rgba(190, 50, 250, 0.5);
 }
 
 #hex{
     color: #FF5500;
 }
 
+#hex:hover{
+    color: black;
+    background-color: #FF5500;
+}
+
 #hex-transparencia{
     color: #69892050;
+}
+
+#hex-transparencia:hover{
+    background-color: #69892050;
+    color: wheat;
 }
 
 #hsl{
     color: hsl(180, 90%, 50%);
 }
 
+#hsl:hover{
+    color: black;
+    background-color: hsl(180, 90%, 50%);
+}
+
 #hsla{
     color: hsla(240, 50%, 50%, 0.8);
+}
+
+#hsla:hover{
+    color: wheat;
+    background-color: hsla(240, 50%, 50%, 0.8);
 }
 
 main div {
