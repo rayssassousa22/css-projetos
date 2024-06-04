@@ -139,9 +139,11 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 }
 
 main div {
+    text-align: center;
     width: 800px;
     height: 700px;
-    border: 5px solid red;
     background-image: url('http://www.pngall.com/wp-content/uploads/2016/04/Toyota-Logo-Free-Download-PNG.png');
-    object-fit: scale-down;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
