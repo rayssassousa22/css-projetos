@@ -81,3 +81,11 @@ section{
 #hex-transparencia{
     color: #69892050;
 }
+
+#hsl{
+    color: hsl(180, 90%, 50%);
+}
+
+#hsla{
+    color: hsla(240, 50%, 50%, 0.8);
+}
