@@ -71,6 +71,13 @@ section{
 }
 
 #rgba{
-    color: rgba(100, 150, 250, 0.5);
-    background-color: black;
+    color: rgba(190, 50, 250, 0.5);
+}
+
+#hex{
+    color: #FF5500;
+}
+
+#hex-transparencia{
+    color: #69892050;
 }
