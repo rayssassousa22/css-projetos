@@ -121,4 +121,15 @@ main div {
 
 #space{
     background-repeat: space;
+    background-size: 500px 300px;
+}
+
+#round{
+    background-repeat: round;
+    background-size: 500px 300px;
+}
+
+#no-repeat{
+    background-repeat: no-repeat;
+    background-size: 500px 300px;
 }
