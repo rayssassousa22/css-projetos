@@ -114,10 +114,11 @@ main div {
     background-size: 200px 300px;
 }
 
-#tamanho{
-    background-size: 500px 400px;
+#repeat-y{
+    background-repeat: repeat-y;
+    background-size: 200px 300px;
 }
 
-#camadas{
-    background-size: 200px 300px, cover;
+#repeat{
+    background-repeat: space;
 }
