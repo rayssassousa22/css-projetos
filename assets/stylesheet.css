@@ -39,6 +39,7 @@ main h2, p{
 img.fundo {
     min-width:100%;
     max-height: 800px;
+    object-fit: scaledown;
 }
 
 #header-page{display: flex;}
@@ -90,12 +91,14 @@ section{
     color: hsla(240, 50%, 50%, 0.8);
 }
 
-div{
+main div{
     border: 5px solid red;
     width: 300px;
     height: 500px;
 }
 
 #contain {
-    object-fit: contain;
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
 }
