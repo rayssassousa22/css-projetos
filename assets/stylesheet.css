@@ -66,5 +66,11 @@ section{
 }
 
 #rgb {
-    color: rgb(70, 155, 50);
+    color: rgb(70, 155, 50 );
+    background-color: rgb(0, 255, 0);
+}
+
+#rgba{
+    color: rgba(100, 150, 250, 0.5);
+    background-color: black;
 }
