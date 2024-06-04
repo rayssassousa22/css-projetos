@@ -75,6 +75,7 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 #current-color:hover{
     background-color: greenyellow;
     color: black;
+    padding: 5px;
 }
 
 #rgb {
@@ -119,34 +120,4 @@ linear-gradient(45deg, hsla(0, 100%, 20%, 0) 49%, hsla(0, 100%, 0%, 1) 50%, hsla
 linear-gradient(-45deg, hsla(0, 100%, 20%, 0) 49%, hsla(0, 100%, 0%, 1) 50%, hsla(0, 100%, 20%, 0) 70%) 0 0;
 background-color: #300;
 background-size: 100px 100px;
-}
-
-#repeat{
-    background-repeat: repeat;
-    background-size: 120px;
-}
-
-#repeat-x{
-    background-repeat: repeat-x;
-    background-size: 200px 300px;
-}
-
-#repeat-y{
-    background-repeat: repeat-y;
-    background-size: 200px 300px;
-}
-
-#space{
-    background-repeat: space;
-    background-size: 500px 300px;
-}
-
-#round{
-    background-repeat: round;
-    background-size: 500px 300px;
-}
-
-#no-repeat{
-    background-repeat: no-repeat;
-    background-position: center 50px;
 }
