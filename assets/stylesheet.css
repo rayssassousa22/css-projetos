@@ -101,7 +101,7 @@ main div {
     border: 5px solid red;
     width: 500px;
     height: 400px;
-    background-image: url('https://www.desktopbackground.org/download/o/2010/11/28/118032_cute-free-high-definition-desktop-wallpaper-high-resolution-wallpaper-free-jpg_1920x1080_h.jpg');
+    background-image: url('https://www.desktopbackground.org/download/o/2010/11/28/118032_cute-free-high-definition-desktop-wallpaper-high-resolution-wallpaper-free-jpg_1920x1080_h.jpg'), url('https://www.computerhope.com/jargon/w/w3schools.png');
 }
 
 #cover{
@@ -113,5 +113,5 @@ main div {
 }
 
 #tamanho{
-    background-size: 400px;
+    background-size: 500px 400px;
 }
