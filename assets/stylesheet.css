@@ -52,7 +52,6 @@ section{
     color: antiquewhite;
     min-height: 500px;
     align-content: center;
-    text-align: center;
     background-color:black;
 background-image:
 radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
@@ -102,5 +101,5 @@ main div {
     border: 5px solid red;
     width: 500px;
     height: 400px;
-    background-image: url('assets/images/school.jpg');
+    background-image: url('https://www.desktopbackground.org/download/o/2010/11/28/118032_cute-free-high-definition-desktop-wallpaper-high-resolution-wallpaper-free-jpg_1920x1080_h.jpg');
 }
