@@ -98,20 +98,26 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 }
 
 main div {
+    width: 800px;
+    height: 700px;
     border: 5px solid red;
-    width: 500px;
-    height: 400px;
-    background-image: url('https://www.desktopbackground.org/download/o/2010/11/28/118032_cute-free-high-definition-desktop-wallpaper-high-resolution-wallpaper-free-jpg_1920x1080_h.jpg'), url('https://www.computerhope.com/jargon/w/w3schools.png');
+    background-image: url('https://www.desktopbackground.org/download/o/2010/11/28/118032_cute-free-high-definition-desktop-wallpaper-high-resolution-wallpaper-free-jpg_1920x1080_h.jpg');
 }
 
-#cover{
-    background-size: cover;
+#repeat{
+    background-repeat: repeat;
+    background-size: 120px;
 }
 
-#contain{
-    background-size: contain;
+#repeat-x{
+    background-repeat: repeat-x;
+    background-size: 200px 300px;
 }
 
 #tamanho{
     background-size: 500px 400px;
+}
+
+#camadas{
+    background-size: 200px 300px, cover;
 }
