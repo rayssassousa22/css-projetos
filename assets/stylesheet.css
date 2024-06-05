@@ -3,7 +3,7 @@ body{
     margin: 0;
 }
 
-#header-page{display: flex;}
+.header-page{display: flex;}
 
 header {
     text-align: center;
@@ -47,12 +47,15 @@ img.fundo {
     object-fit: scale-down;
 }
 
-.background{margin: 0; display: grid;}
+figure{margin: 0; display: grid;}
 
 a{text-decoration: none;}
 
-section{
+ main section{
     color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 55px;
+    text-align: center;
     display: grid;
     min-height: 500px;
     align-content: center;
@@ -142,13 +145,10 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;}
 
 
 
-code {
-    font-size: 20px;
-}
-
-img{
+.product-img{
     width: 300px;
     height: 300px;
+    margin: 40px;
 }
 
 .product-view{
@@ -164,7 +164,7 @@ img{
     grid-template-rows: min-content;
 }
 
-.content h2, h3, p, a {
+.content h2, .content h3,.content p,.content a {
     margin-bottom: 40px;
     margin-inline-start: 30px;
     color: white;
@@ -174,4 +174,12 @@ img{
 
 .content h2 a:hover{color: #FF5500;}
 .content h3 a:hover{background-color: yellow; color: black; border-radius: 5px;padding: 20px;}
-.content p, h3{font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 20px; margin-inline-end: 3em;}
+.content p,.content h3{font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 20px; margin-inline-end: 3em;}
+
+#page-content{
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
