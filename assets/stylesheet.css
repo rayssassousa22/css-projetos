@@ -155,9 +155,22 @@ img{
     display: flex;
     max-height: 400px;
     border: double 5px white;
+    margin: 30px;
+    align-items: center;
 }
 
 .content{
-    display: block;
-
+    display: grid;
+    grid-template-rows: min-content;
 }
+
+.content h2, h3, p {
+    margin-bottom: 40px;
+    margin-inline-start: 30px;
+    color: white;
+}
+
+.content h2 a:hover{color: #FF5500;}
+.content h3 a:hover{background-color: yellow;
+    color: black;
+    border-radius: 5px;}
