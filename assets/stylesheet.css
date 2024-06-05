@@ -53,8 +53,14 @@ section{
     display: grid;
     min-height: 500px;
     align-content: center;
-    background-color: pink;
-}
+    background-color:black;
+background-image:
+radial-gradient(white, rgba(255,255,255,.2) 2px, transparent 40px),
+radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
+radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
+radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
+background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
+background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;}
 
 #pre-definidas {
     color: darkturquoise;
@@ -134,23 +140,9 @@ section{
 main div {
     width: 400px;
     height: 400px;
-    background-image: url('https://pixlr.com/images/index/ai-image-generator-one.webp');
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    padding: 20px;
     border: 10px dashed greenyellow;
-}
-
-#border-box{
-    background-origin: border-box;
-}
-
-#padding-box{
-    background-origin: padding-box;
-}
-
-#content-box{
-    background-origin: content-box;
+    background: url('https://www.shutterstock.com/shutterstock/photos/2128959116/display_1500/stock-vector-abstract-waving-particle-technology-background-design-abstract-wave-moving-dots-flow-particles-hi-2128959116.jpg') center / 200px 200px no-repeat overlay scroll #FF5500;
+    padding: 20px;
 }
 
 code {
