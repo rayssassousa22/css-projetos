@@ -174,4 +174,4 @@ img{
 
 .content h2 a:hover{color: #FF5500;}
 .content h3 a:hover{background-color: yellow; color: black; border-radius: 5px;padding: 20px;}
-.content p{font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 20px; margin-inline-end: 3em;}
+.content p, h3{font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 20px; margin-inline-end: 3em;}
