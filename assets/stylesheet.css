@@ -50,7 +50,6 @@ a{text-decoration: none;}
 
 section{
     color: antiquewhite;
-    text-align: center;
     display: grid;
     min-height: 500px;
     align-content: center;
@@ -147,4 +146,8 @@ main div {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+code {
+    font-size: 20px;
 }
