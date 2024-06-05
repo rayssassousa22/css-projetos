@@ -51,13 +51,13 @@ figure{margin: 0; display: grid;}
 
 a{text-decoration: none;}
 
- main section{
+main section{
     color: white;
     font-family: 'Times New Roman', Times, serif;
     font-size: 55px;
     text-align: center;
     display: grid;
-    min-height: 500px;
+    min-height: 300px;
     align-content: center;
     background-color:black;
 background-image:
@@ -68,6 +68,9 @@ radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px
 background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
 background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 }
+
+.navigational{ color: yellow; border-radius: 5px; padding: 20px;}
+.navigational:hover{background-color: yellow; color: bla; border-radius: 5px; padding: 20px;}
 
 .product-img{
     width: 300px;

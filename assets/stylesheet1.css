@@ -2,13 +2,15 @@ body{
     background-color: black;
 }
 
-section p {
+section p{
     color: white;
     font-family: 'Times New Roman', Times, serif;
     font-size: 55px;
     text-align: center;
     align-content: center;
 }
+
+a {text-decoration: none; color: white;}
 
 .exemplo{
     background-color: black;
