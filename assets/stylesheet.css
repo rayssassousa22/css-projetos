@@ -164,13 +164,14 @@ img{
     grid-template-rows: min-content;
 }
 
-.content h2, h3, p {
+.content h2, h3, p, a {
     margin-bottom: 40px;
     margin-inline-start: 30px;
     color: white;
+    text-decoration: none;
+    margin-left: 0px;
 }
 
 .content h2 a:hover{color: #FF5500;}
-.content h3 a:hover{background-color: yellow;
-    color: black;
-    border-radius: 5px;}
+.content h3 a:hover{background-color: yellow; color: black; border-radius: 5px;padding: 20px;}
+.content p{font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 20px; margin-inline-end: 3em;}
