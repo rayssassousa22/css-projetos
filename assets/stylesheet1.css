@@ -2,4 +2,15 @@
     background-color: black;
     width: 200px;
     height: 200px;
+    border: 30px solid;
+}
+
+#exemplo-1{
+    border-image-source: url('images/school.jpg');
+}
+
+#exemplo-2{
+    border-image-source: linear-gradient(red, pink);
+    border-image-slice: 50;
+    border-image-width: 10px;
 }
