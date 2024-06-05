@@ -66,84 +66,8 @@ radial-gradient(white, rgba(255,255,255,.15) 1px, transparent 30px),
 radial-gradient(white, rgba(255,255,255,.1) 2px, transparent 40px),
 radial-gradient(rgba(255,255,255,.4), rgba(255,255,255,.1) 2px, transparent 30px);
 background-size: 550px 550px, 350px 350px, 250px 250px, 150px 150px;
-background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;}
-
-#pre-definidas {
-    color: darkturquoise;
+background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 }
-
-#pre-definidas:hover{
-    background-color: darkturquoise;
-    color: black;
-}
-
-#current-color {
-    color: greenyellow;
-    border: 5px solid currentcolor;
-}
-
-#current-color:hover{
-    background-color: greenyellow;
-    color: black;
-    padding: 5px;
-}
-
-#rgb {
-    color: rgb(70, 155, 50 );
-    background-color: rgb(0, 255, 0);
-}
-
-#rgb:hover{
-    color: wheat;
-    background-color: rgb(70, 155, 50 );
-}
-
-#rgba{
-    color: rgba(190, 50, 250, 1.0);
-}
-
-#rgba:hover{
-    color: wheat;
-    background-color: rgba(190, 50, 250, 0.5);
-}
-
-#hex{
-    color: #FF5500;
-}
-
-#hex:hover{
-    color: black;
-    background-color: #FF5500;
-}
-
-#hex-transparencia{
-    color: #698920FF;
-}
-
-#hex-transparencia:hover{
-    background-color: #69892050;
-    color: wheat;
-}
-
-#hsl{
-    color: hsl(180, 90%, 50%);
-}
-
-#hsl:hover{
-    color: black;
-    background-color: hsl(180, 90%, 50%);
-}
-
-#hsla{
-    color: hsla(240, 50%, 50%, 0.8);
-}
-
-#hsla:hover{
-    color: hsla(240, 50%, 50%, 1.0);
-    background-color: hsla(240, 50%, 50%, 0.4);
-}
-
-
 
 .product-img{
     width: 300px;
@@ -164,7 +88,7 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;}
     grid-template-rows: min-content;
 }
 
-.content h2, .content h3,.content p,.content a {
+.content h2, .content h3,.content p,a {
     margin-bottom: 40px;
     margin-inline-start: 30px;
     color: white;
@@ -172,6 +96,7 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;}
     margin-left: 0px;
 }
 
+.content h3 a{background-color: black; color: yellow; border-radius: 5px; padding: 20px;}
 .content h2 a:hover{color: #FF5500;}
 .content h3 a:hover{background-color: yellow; color: black; border-radius: 5px;padding: 20px;}
 .content p,.content h3{font-family:Verdana, Geneva, Tahoma, sans-serif; font-size: 20px; margin-inline-end: 3em;}

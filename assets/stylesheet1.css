@@ -28,3 +28,78 @@
     color: transparent;
     background-clip: text;
 }
+
+#pre-definidas {
+    color: darkturquoise;
+}
+
+#pre-definidas:hover{
+    background-color: darkturquoise;
+    color: black;
+}
+
+#current-color {
+    color: greenyellow;
+    border: 5px solid currentcolor;
+}
+
+#current-color:hover{
+    background-color: greenyellow;
+    color: black;
+    padding: 5px;
+}
+
+#rgb {
+    color: rgb(70, 155, 50 );
+    background-color: rgb(0, 255, 0);
+}
+
+#rgb:hover{
+    color: wheat;
+    background-color: rgb(70, 155, 50 );
+}
+
+#rgba{
+    color: rgba(190, 50, 250, 1.0);
+}
+
+#rgba:hover{
+    color: wheat;
+    background-color: rgba(190, 50, 250, 0.5);
+}
+
+#hex{
+    color: #FF5500;
+}
+
+#hex:hover{
+    color: black;
+    background-color: #FF5500;
+}
+
+#hex-transparencia{
+    color: #698920FF;
+}
+
+#hex-transparencia:hover{
+    background-color: #69892050;
+    color: wheat;
+}
+
+#hsl{
+    color: hsl(180, 90%, 50%);
+}
+
+#hsl:hover{
+    color: black;
+    background-color: hsl(180, 90%, 50%);
+}
+
+#hsla{
+    color: hsla(240, 50%, 50%, 0.8);
+}
+
+#hsla:hover{
+    color: hsla(240, 50%, 50%, 1.0);
+    background-color: hsla(240, 50%, 50%, 0.4);
+}
