@@ -149,6 +149,10 @@ main div {
     overflow: auto;
 }
 
+#fixed{
+    background-attachment: fixed;
+}
+
 code {
     font-size: 20px;
 }
