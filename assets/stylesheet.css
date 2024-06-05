@@ -143,6 +143,7 @@ main div {
     height: 400px;
     background-color: palevioletred;
     border: 10px solid white;
+    border-radius: 100px/50px;
 }
 
 code {
