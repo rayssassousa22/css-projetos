@@ -140,17 +140,24 @@ background-size: 20px 20px;
 }
 
 main div {
-    width: 500px;
+    width: 400px;
     height: 400px;
     background-image: url('https://pixlr.com/images/index/ai-image-generator-one.webp');
-    background-size: cover;
+    background-size: 100% 100%;
     background-repeat: no-repeat;
-    background-position: center;
-    overflow: auto;
+    border: 10px dashed greenyellow;
 }
 
 #fixed{
     background-attachment: fixed;
+}
+
+#scroll{
+    background-attachment: scroll;
+}
+
+#local{
+    background-attachment: local;
 }
 
 code {
