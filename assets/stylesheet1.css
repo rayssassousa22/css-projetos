@@ -11,7 +11,11 @@ section p{
 
 @font-face {
     font-family: quicksand;
-    src: url('assets/fonts/Quicksand.ttf');
+    src: url('fonts/Quicksandt.ttf');
+}
+
+*{
+    font-family: quicksand;
 }
 
 a {text-decoration: none; color: white;}
