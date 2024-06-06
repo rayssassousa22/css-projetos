@@ -123,3 +123,9 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
     color: white;
     text-align: center;
 }
+
+.text {
+    width: 300px;
+    background-color: pink;
+    display: block;
+}
