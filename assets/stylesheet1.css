@@ -51,11 +51,13 @@ a {text-decoration: none; color: white;}
 
 #pre-definidas {
     color: darkturquoise;
+    font-size: xx-small;
 }
 
 #pre-definidas:hover{
     background-color: darkturquoise;
     color: black;
+    font-size: x-small;
 }
 
 #current-color {
