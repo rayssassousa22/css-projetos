@@ -3,10 +3,8 @@ body{
 }
 
 section p{
-    color: white;
-    font-size: 55px;
+    color: black;
     text-align: center;
-    align-content: center;
 }
 
 @font-face {
@@ -160,5 +158,5 @@ img{
 
 .white-background {
     background-color: white;
-    display: flex;
+    text-indent: 5px;
 }
