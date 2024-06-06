@@ -3,7 +3,37 @@ body{
     margin: 0;
 }
 
-@import url(global.css);
+.header-page{display: flex;}
+
+header {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: space-between;
+    min-height: 150px;
+    margin-left: 5em;
+    margin-right: 5em;
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.title{color: white;}
+strong{color: yellow;}
+.title:hover{
+    color: red;
+}
+
+.menu {
+    color: yellow;
+    padding: 15px;
+}
+
+.menu:hover{
+    background-color: yellow;
+    color: black;
+    border-radius: 5px;
+}
 
 main h2{
     font-weight: bold;
