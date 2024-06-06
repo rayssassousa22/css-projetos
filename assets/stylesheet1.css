@@ -4,10 +4,15 @@ body{
 
 section p{
     color: white;
-    font-family: 'Times New Roman', Times, serif;
     font-size: 55px;
     text-align: center;
     align-content: center;
+}
+
+*{
+    font-family: "quicksand", sans-serif;
+    font-weight: 100;
+    font-style: italic;
 }
 
 a {text-decoration: none; color: white;}
@@ -26,7 +31,7 @@ a {text-decoration: none; color: white;}
 }
 
 #exemplo-1{
-    border-image: linear-gradient(aqua, yellow) 40 / 10px / 30px repeat;
+    border-image: linear-gradient(aqua, yellow) 40 / 10px / 40px repeat;
     background-image: url('https://cdn.pixabay.com/photo/2016/07/17/01/53/background-1523105_960_720.jpg');
     -webkit-background-clip: text;
     color: transparent;
@@ -34,9 +39,7 @@ a {text-decoration: none; color: white;}
 }
 
 #exemplo-2{
-    border-image-source: linear-gradient(red, pink);
-    border-image-slice: 50;
-    border-image-outset: 30px;
+    border-image: linear-gradient(red, pink) 50  / 20px /  30px;
     background-image: linear-gradient(red, pink);
     -webkit-background-clip: text;
     color: transparent;
