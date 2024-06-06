@@ -96,6 +96,7 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
     color: white;
     text-decoration: none;
     margin-left: 0px;
+    line-height: 150%;
 }
 
 .content h3 a{background-color: black; color: yellow; border-radius: 5px; padding: 20px;}
