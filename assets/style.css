@@ -131,6 +131,11 @@ a {text-decoration: none; color: white;}
     background-color: hsla(240, 50%, 50%, 0.4);
 }
 
+.post-it {
+    display: flex;
+    background-color: white;
+}
+
 .text {
     font-weight: 900;
     margin: 20px;
