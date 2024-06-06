@@ -103,8 +103,8 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
     text-indent: 20px;
 }
 
-.content h3 {
-    text-decoration: underline;
+.content h2 {
+    letter-spacing: 3px;
 }
 
 #London, #Italy {
