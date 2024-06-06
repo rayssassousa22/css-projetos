@@ -132,9 +132,11 @@ a {text-decoration: none; color: white;}
 }
 
 .text {
-    width: 500px;
+    width: 100px;
+    padding: 20px;
     background-color: pink;
     display: block;
+    color: black;
+    word-wrap: break-word;
     white-space: pre-wrap;
-    color: white;
 }
