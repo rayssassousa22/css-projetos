@@ -35,16 +35,10 @@ strong{color: yellow;}
     border-radius: 5px;
 }
 
-@font-face {
-    font-family: Mono;
-    src: url(fonts/LeagueMonoVariable.ttf);
-}
-
 main h2{
-    font-family: Mono;
+    font-weight: 600;
     font-size: 55px;
     margin: 20px;
-    font-stretch: ;
 }
 
 img.fundo {
