@@ -140,11 +140,11 @@ a {text-decoration: none; color: white;}
     padding: 20px;
     background-color: pink;
     display: block;
-    color: white;
+    color: black;
     word-wrap: break-word;
     white-space: pre-wrap;
     box-shadow: 30px 10px 10px rgb(66, 63, 63);
-    overflow: scroll;
+    overflow: auto;
 }
 
 span {
