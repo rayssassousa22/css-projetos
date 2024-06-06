@@ -102,6 +102,14 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
     line-height: 1.5;
 }
 
+.content h3 {
+    text-decoration: underline;
+}
+
+#London, #Italy {
+    text-decoration: line-through;
+}
+
 .content h3 a{background-color: black; color: yellow; border-radius: 5px; padding: 20px;}
 .content h2 a:hover{color: #FF5500;}
 .content h3 a:hover{background-color: yellow; color: black; border-radius: 5px;padding: 20px;}
