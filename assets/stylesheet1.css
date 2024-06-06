@@ -136,7 +136,8 @@ a {text-decoration: none; color: white;}
     padding: 20px;
     background-color: pink;
     display: block;
-    color: black;
-    word-wrap: break-word;
-    white-space: pre-wrap;
+    color: white;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
 }
