@@ -125,8 +125,9 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 }
 
 .text {
-    width: 300px;
+    width: 500px;
     background-color: pink;
     display: block;
     white-space: pre;
+    color: white;
 }
