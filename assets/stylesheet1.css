@@ -130,3 +130,11 @@ a {text-decoration: none; color: white;}
     color: hsla(240, 50%, 50%, 1.0);
     background-color: hsla(240, 50%, 50%, 0.4);
 }
+
+.text {
+    width: 500px;
+    background-color: pink;
+    display: block;
+    white-space: pre-wrap;
+    color: white;
+}
