@@ -9,10 +9,9 @@ section p{
     align-content: center;
 }
 
-*{
-    font-family: "quicksand", sans-serif;
-    font-weight: 100;
-    font-style: italic;
+@font-face {
+    font-family: quicksand;
+    src: url('assets/fonts/Quicksand.ttf');
 }
 
 a {text-decoration: none; color: white;}
