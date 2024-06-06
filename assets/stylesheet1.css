@@ -74,6 +74,7 @@ a {text-decoration: none; color: white;}
 #rgb {
     color: rgb(70, 155, 50 );
     background-color: rgb(0, 255, 0);
+    font-size: large;
 }
 
 #rgb:hover{
@@ -102,6 +103,7 @@ a {text-decoration: none; color: white;}
 
 #hex-transparencia{
     color: #698920FF;
+    font-size: medium;
 }
 
 #hex-transparencia:hover{
