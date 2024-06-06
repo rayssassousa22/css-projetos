@@ -84,6 +84,7 @@ a {text-decoration: none; color: white;}
 
 #rgba{
     color: rgba(190, 50, 250, 1.0);
+    font-size: x-large;
 }
 
 #rgba:hover{
@@ -113,6 +114,7 @@ a {text-decoration: none; color: white;}
 
 #hsl{
     color: hsl(180, 90%, 50%);
+    font-size: xx-large;
 }
 
 #hsl:hover{
