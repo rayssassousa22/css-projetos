@@ -37,7 +37,7 @@ strong{color: yellow;}
 
 @font-face {
     font-family: Pixel;
-    src: url('fonts/Tiny5-Regular.ttf');
+    src: url(fonts/Tiny5-Regular.ttf);
 }
 
 main h2{
@@ -50,7 +50,7 @@ main h2{
 img.fundo {
     min-width:100%;
     max-height: 800px;
-    object-fit: scale-down;
+    object-fit: cover;
 }
 
 figure{margin: 0; display: grid;}
@@ -59,7 +59,6 @@ a{text-decoration: none;}
 
 main section{
     color: white;
-    font-family: 'Times New Roman', Times, serif;
     font-size: 55px;
     text-align: center;
     display: grid;
@@ -76,7 +75,7 @@ background-position: 0 0, 40px 60px, 130px 270px, 70px 100px;
 }
 
 .navigational{ color: yellow; border-radius: 5px; padding: 20px;}
-.navigational:hover{background-color: yellow; color: bla; border-radius: 5px; padding: 20px;}
+.navigational:hover{background-color: yellow; color: black; border-radius: 5px; padding: 20px;}
 
 .product-img{
     width: 300px;
