@@ -168,6 +168,9 @@ img{
 
 nav{
     display: inline-block;
+}
+
+.menu {
     padding: 15px;
     margin: 5px;
     background-color: #FF5500;
