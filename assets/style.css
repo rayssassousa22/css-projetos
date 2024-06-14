@@ -176,3 +176,9 @@ nav{
     background-color: #FF5500;
     color: white;
 }
+
+.menu:hover{
+    background-color: white;
+    color: #FF5500;
+    border-bottom: #FF5500 5px solid;
+}
