@@ -175,9 +175,6 @@ header nav ul li{
     margin: 5px;
     background-color: #FF5500;
     color: white;
-    position: relative;
-    top: 50px;
-    left: 400px;
 }
 
 .menu:hover{
