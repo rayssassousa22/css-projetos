@@ -160,6 +160,8 @@ a {text-decoration: none; color: white;}
     overflow: auto;
     text-shadow: 10px 10px 10px black;
     font-size: medium;
+    position: sticky;
+    top: 0;
 }
 
 img{
@@ -180,11 +182,6 @@ header nav ul li{
     display: inline-block;
 }
 
-header {
-    position: fixed;
-    width: 100%;
-    background-color: black;
-}
 
 .menu {
     padding: 15px;
