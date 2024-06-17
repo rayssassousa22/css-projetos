@@ -32,6 +32,13 @@ a {text-decoration: none; color: white;}
     font-weight: 900;
 }
 
+#elemento-pai{
+    box-sizing: border-box;
+    height: 800px;
+    padding: 30px;
+    position: relative;
+}
+
 #exemplo-1{
     border-image: linear-gradient(aqua, yellow) 40 / 10px / 40px repeat;
     background-image: url('https://cdn.pixabay.com/photo/2016/07/17/01/53/background-1523105_960_720.jpg');
