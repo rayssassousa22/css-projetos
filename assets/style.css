@@ -168,6 +168,7 @@ img{
 
 header nav ul li{
     display: inline-block;
+    position: static;
 }
 
 .menu {
