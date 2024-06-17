@@ -168,7 +168,6 @@ img{
 
 header nav ul li{
     display: inline-block;
-    position: static;
 }
 
 .menu {
@@ -176,6 +175,7 @@ header nav ul li{
     margin: 5px;
     background-color: #FF5500;
     color: white;
+    position: static;
 }
 
 .menu:hover{
