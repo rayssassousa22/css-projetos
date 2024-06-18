@@ -179,9 +179,12 @@ img{
 }
 
 header nav ul li{
-    display: inline-block;
+    display: flex;
 }
 
+#container-02{
+    flex-direction: row;
+}
 
 .menu {
     padding: 15px;
