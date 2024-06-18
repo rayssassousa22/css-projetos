@@ -183,6 +183,7 @@ header nav ul li{
 }
 
 #container-02{
+    display: flex;
     flex-direction: row;
 }
 
