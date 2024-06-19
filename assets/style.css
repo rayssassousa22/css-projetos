@@ -183,9 +183,12 @@ header nav ul li{
 }
 
 #container-02{
+    background-color: navajowhite;
+    padding: 10px;
+    margin: 20px;
     display: flex;
     flex-flow: row-reverse wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
 }
 
 #container-01{
