@@ -192,7 +192,7 @@ header nav ul li{
     flex-flow: column wrap;
     justify-content: space-around;
     align-items: flex-start;
-    align-content: flex-end;
+    align-content: space-evenly;
 
 }
 
