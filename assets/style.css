@@ -182,10 +182,6 @@ header nav ul li{
     display: flex;
 }
 
-.item{
-    flex-basis: 100px;
-}
-
 #container-02{
     background-color: navajowhite;
     margin: 20px;
@@ -197,7 +193,10 @@ header nav ul li{
 #container-01{
     display: flex;
     flex-direction: row;
-    align-items: stretch;
+}
+
+.item{
+    flex: 1 1 auto;
 }
 
 .menu {
