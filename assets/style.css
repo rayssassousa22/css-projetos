@@ -189,11 +189,8 @@ header nav ul li{
     width: 500px;
     height: 500px;
     display: flex;
-    flex-flow: column wrap;
-    justify-content: space-around;
-    align-items: flex-start;
-    align-content: space-evenly;
-
+    flex-wrap: wrap;
+    gap: 30px 20px ;
 }
 
 #container-01{
