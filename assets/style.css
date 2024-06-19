@@ -184,9 +184,12 @@ header nav ul li{
 
 #container-02{
     background-color: navajowhite;
+    height: 300px;
+    width: 300px;
     margin: 20px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    align-items: flex-start;
     gap: 10px;
 }
 
@@ -196,7 +199,12 @@ header nav ul li{
 }
 
 .item{
-    flex: 1 1 auto;
+    text-align: center;
+    flex: 1;
+}
+
+.item-01{
+    align-self: stretch;
 }
 
 .menu {
