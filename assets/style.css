@@ -198,10 +198,6 @@ header nav ul li{
     align-items: stretch;
 }
 
-.item {
-    flex-shrink: 1;
-}
-
 .menu {
     padding: 10px;
     margin: 5px;
