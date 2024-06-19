@@ -187,10 +187,13 @@ header nav ul li{
     padding: 50px;
     margin: 20px;
     width: 500px;
+    height: 500px;
     display: flex;
-    flex-flow: row-reverse wrap;
+    flex-flow: column wrap;
     justify-content: space-around;
     align-items: flex-start;
+    align-content: flex-end;
+
 }
 
 #container-01{
