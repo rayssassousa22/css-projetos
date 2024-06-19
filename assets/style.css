@@ -182,13 +182,15 @@ header nav ul li{
     display: flex;
 }
 
+.item{
+    flex-basis: 100px;
+}
+
 #container-02{
     background-color: navajowhite;
     margin: 20px;
-    width: 500px;
-    height: 500px;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 10px;
 }
 
@@ -204,7 +206,6 @@ header nav ul li{
     background-color: #FF5500;
     color: white;
 }
-
 .menu:hover{
     background-color: white;
     color: #FF5500;
